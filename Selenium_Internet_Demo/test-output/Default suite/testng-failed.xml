@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Testpkg.Testclass">
+        <methods>
+          <include name="open"/>
+          <include name="testDynamicControls"/>
+          <include name="testFileDownload"/>
+          <include name="testFileUpload"/>
+          <include name="testDragAndDrop"/>
+          <include name="testHoverTooltips"/>
+          <include name="testInputField"/>
+          <include name="testDropdown"/>
+          <include name="setupPage"/>
+          <include name="testJQueryUI"/>
+          <include name="testContextMenu"/>
+          <include name="testDynamicLoading"/>
+          <include name="testSlider"/>
+          <include name="testCheckboxes"/>
+          <include name="testKeyPresses"/>
+          <include name="testTyposPage"/>
+          <include name="testMultipleWindows"/>
+          <include name="testStatusCodes"/>
+          <include name="testFormAuthentication"/>
+          <include name="testDirectAuth"/>
+          <include name="testJavaScriptAlerts"/>
+        </methods>
+      </class> <!-- Testpkg.Testclass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
